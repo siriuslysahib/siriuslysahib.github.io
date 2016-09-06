@@ -595,7 +595,7 @@ jQuery.extend( jQuery.easing,
 		}
 
 		var nowTime = new Date();
-		diffSecs = 1473145001570 + 1500000 - nowTime.valueOf();
+		diffSecs = 1500000 ;
 
 		$.data(this[0], 'diffSecs', diffSecs);
 
